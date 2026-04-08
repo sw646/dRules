@@ -6,8 +6,16 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 secret: dler
+
 experimental:
   ignore-resolve-fail: true
+tun:
+  enable: true
+  stack: system
+  dns-hijack:
+    - 198.18.0.2:53
+  auto-route: true
+  auto-detect-interface: true
 dns:
   enable: true
   # ipv6: false
@@ -16,19 +24,3 @@ dns:
   default-nameserver:
     - 119.29.29.29
     - 223.5.5.5
-    - 223.6.6.6
-  nameserver-policy:
-    '+.oix_nodes.com': '106.53.6.121'
-  # interface-name: WLAN
-tun:
-  enable: true
-  stack: system
-  dns-hijack:
-    - 198.18.0.2:53
-  auto-route: true
-  auto-detect-interface: true
-
-# Stash
-url-rewrite:
-    - ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
-    - ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
