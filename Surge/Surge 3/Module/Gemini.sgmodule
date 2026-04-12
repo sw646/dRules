@@ -1,0 +1,11 @@
+#!name=Google Gemini same Proxy
+#!desc=Google Gemini same Proxy
+
+[Rule]
+# > Google Gemini
+DOMAIN-SUFFIX,aisandbox-pa.googleapis.com,Proxy
+DOMAIN-SUFFIX,apis.google.com,Proxy
+DOMAIN-SUFFIX,bard.google.com,Proxy
+DOMAIN-SUFFIX,gemini.google,Proxy
+DOMAIN-SUFFIX,gemini.google.com,Proxy
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com,Proxy
