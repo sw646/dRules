@@ -1,8 +1,11 @@
-
 # Discord
 
 domain_suffix_set:
+  # > Discord
   - discord.com
+  - dis.gd
+  - discord.gift
+  - discordsays.com
   - discord.gg
   - discord.media
   - discordapp.com

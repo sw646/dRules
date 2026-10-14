@@ -1,9 +1,20 @@
 # Douyin
 
 domain_suffix_set:
+  # > Douyin
   - amemv.com
+  - bytegecko.com
+  - bytegoofy.com
+  - bytehwm.com
+  - byteimg.com
+  - bytescm.com
+  - douyinpic.com
+  - douyinstatic.com
+  - douyinvod.com
+  - ibytedapm.com
   - ixigua.com
   - ixiguavideo.com
   - pstatp.com
   - snssdk.com
   - toutiao.com
+  - zijieapi.com
